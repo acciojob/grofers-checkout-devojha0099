@@ -18,6 +18,7 @@ const getSum = () => {
 	const td = document.createElement("td");
 	td.textContent = `Total Price ${sum}`
 	td.colSpan = 2;
+	td.id = "ans"
 	tr.appendChild(td);
 	table.appendChild(tr)
 
